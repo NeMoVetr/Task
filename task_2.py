@@ -11,8 +11,6 @@ for i in range(n):
 for i in range(n):
     mass1.append(mass[i:i + 3])
 
-print(mass1)
-
 for i in mass1:
     if len(i) == 3:
         for j in i:
