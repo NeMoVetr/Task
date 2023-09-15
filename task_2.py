@@ -24,7 +24,7 @@ for i in mass1:
         summ.append(sum)
         sum = 0
     if len(i) == 1:
-        sum = mass1[0][1]
+        sum = mass1[0][1]+mass1[0][0]
         for j in i:
             sum += j
         summ.append(sum)
